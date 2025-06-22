@@ -42,7 +42,7 @@ export default function Hero() {
           maxWidth: 520,
         }}
       >
-        <div style={{ width: '100%', height: 260, marginBottom: 16, borderRadius: 8, overflow: 'hidden', background: '#181c1f' }}>
+{/*         <div style={{ width: '100%', height: 260, marginBottom: 16, borderRadius: 8, overflow: 'hidden', background: '#181c1f' }}>
           <Canvas shadows camera={{ position: [2, 2, 3], fov: 40 }} style={{ width: '100%', height: '100%' }}>
             <ambientLight intensity={0.7} />
             <directionalLight position={[5, 10, 5]} intensity={1.2} castShadow shadow-mapSize-width={1024} shadow-mapSize-height={1024} />
@@ -51,7 +51,7 @@ export default function Hero() {
             </Stage>
             <OrbitControls enablePan={false} enableZoom={false} autoRotate autoRotateSpeed={1.2} />
           </Canvas>
-        </div>
+        </div> */}
         <h1 style={{ fontSize: '2.5rem', fontWeight: 900, color: '#00b894', textAlign: 'center', textShadow: '0 0 24px #00e67688', marginBottom: 8 }}>
           SmartBinSense
         </h1>
