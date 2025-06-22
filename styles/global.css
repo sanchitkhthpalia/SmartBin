@@ -1,0 +1,45 @@
+:root {
+  --primary: #2E8B57;
+  --primary-dark: #247245;
+  --secondary: #4682B4;
+  --light: #F5F7FA;
+  --dark: #333333;
+  --sidebar: #2C3E50;
+  --error: #E74C3C;
+  --success: #2ECC71;
+  --warning: #F39C12;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: var(--dark);
+  background-color: var(--light);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}

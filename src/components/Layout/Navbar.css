@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.page-title h1 {
+  margin: 0;
+  color: var(--dark);
+}
+
+.page-title p {
+  margin: 0.25rem 0 0;
+  color: var(--dark);
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+.notification-bell {
+  position: relative;
+  cursor: pointer;
+}
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: var(--primary);
+  color: white;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+}

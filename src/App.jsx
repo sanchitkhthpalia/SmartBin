@@ -1,28 +1,17 @@
-import React from 'react';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Hero from './pages/Hero';
-import CitizenRequest from './pages/CitizenRequest';
-import AdminDashboard from './pages/AdminDashboard';
-import PublicDashboard from './pages/PublicDashboard';
-import NotFound from './pages/NotFound';
-import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Login from './pages/Login';
+import Dashboard from './pages/Dashboard';
+import SubmitMaterial from './pages/SubmitMaterial';
 
 function App() {
   return (
-    <Router>
-      <div style={{ minHeight: '100vh', background: 'linear-gradient(135deg, #23272f 0%, #003d29 100%)' }}>
-        <Navbar />
-        <div style={{ maxWidth: 1200, margin: '0 auto', padding: '32px 16px' }}>
-          <Routes>
-            <Route path="/" element={<Hero />} />
-            <Route path="/citizen-request" element={<CitizenRequest />} />
-            <Route path="/admin" element={<AdminDashboard />} />
-            <Route path="/public" element={<PublicDashboard />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-      </div>
-      </div>
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/submit-material" element={<SubmitMaterial />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
