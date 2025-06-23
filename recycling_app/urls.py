@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('materials/', include("material_mgnt.urls")),
     path('user/', include("User_setup.urls")),
+    path('bin/', include("bin_mgnt.urls")),
 ]
