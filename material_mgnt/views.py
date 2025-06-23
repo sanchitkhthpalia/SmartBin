@@ -7,4 +7,4 @@ from rest_framework import status
 # Create your views here.
 @api_view(['GET'])
 def get_requested_material(request):
-    
+    pass

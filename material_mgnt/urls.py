@@ -1,5 +1,5 @@
 from django.urls import path
-
+from . import views
 urlpatterns = [
-    path('request/', )
+    path('request/', views.get_requested_material)
 ]
